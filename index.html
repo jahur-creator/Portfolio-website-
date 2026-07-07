@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jahur Jamadar | Aspiring Full Stack Developer</title>
+<meta name="description" content="Portfolio of Jahur Jamadar - BCA Student, Aspiring Full Stack Developer, IT Enthusiast">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- AOS Animation -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div id="loader">
+  <div class="loader-content">
+    <div class="loader-logo">JJ</div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+</div>
+
+<!-- Custom Cursor -->
+<div class="cursor-dot"></div>
+<div class="cursor-glow"></div>
+
+<!-- Scroll Progress Bar -->
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgress"></div></div>
+
+<!-- Particle Background -->
+<div id="particles-js"></div>
+
+<!-- Floating Shapes -->
+<div class="floating-shapes">
+  <div class="shape shape-1"></div>
+  <div class="shape shape-2"></div>
+  <div class="shape shape-3"></div>
+  <div class="shape shape-4"></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">
+      <span class="logo-bracket">&lt;</span>JJ<span class="logo-bracket">/&gt;</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- 1. HOME / HERO -->
+<section id="home" class="hero">
+  <div class="hero-container">
+    <div class="hero-text" data-aos="fade-right">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Jahur Jamadar</h1>
+      <div class="hero-typed-wrap">
+        <span class="typed-prefix">I'm a</span> <span id="typed-text"></span><span class="typed-cursor">|</span>
+      </div>
+      <p class="hero-desc">BCA Student passionate about Full Stack Development, Artificial Intelligence, and building things that solve real problems. Currently sharpening my skills to break into the IT industry.</p>
+      <div class="hero-buttons">
+        <a href="assets/Jahur_Jamadar_Resume.pdf" class="btn btn-primary" download>
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+        <a href="#projects" class="btn btn-outline">
+          <i class="fa-solid fa-diagram-project"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-glow">
+          <i class="fa-solid fa-paper-plane"></i> Hire Me
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/jahur-creator" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jahur-jamadar" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:jahurjamadar80@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual" data-aos="fade-left">
+      <div class="hero-ring"></div>
+      <div class="hero-avatar">
+        <img src="images/profile.jpg" alt="Jahur Jamadar" class="avatar-img">
+      </div>
+      <div class="hero-badge badge-1"><i class="fa-brands fa-react"></i></div>
+      <div class="hero-badge badge-2"><i class="fa-brands fa-node-js"></i></div>
+      <div class="hero-badge badge-3"><i class="fa-brands fa-js"></i></div>
+      <div class="hero-badge badge-4"><i class="fa-solid fa-database"></i></div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-down" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<!-- 2. ABOUT -->
+<section id="about" class="section">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">About Me</span>
+    <h2 class="section-title">Getting To Know Me</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-image" data-aos="fade-right">
+      <div class="about-image-frame">
+        <img src="images/profile.jpg" alt="Jahur Jamadar" class="about-img">
+      </div>
+      <div class="about-exp-badge">
+        <span class="exp-num" data-counter="1">0</span>+
+        <small>Years Learning</small>
+      </div>
+    </div>
+    <div class="about-content" data-aos="fade-left">
+      <h3>BCA Student &amp; Aspiring Full Stack Developer</h3>
+      <p>I'm Jahur Jamadar, a Bachelor of Computer Applications student with a strong drive to grow into a capable Full Stack Developer. I enjoy turning ideas into working software — from clean front-end interfaces to solid back-end logic and databases that hold it all together.</p>
+      <p class="career-objective"><strong>Career Objective:</strong> To secure a position in a growth-oriented IT company where I can apply my technical foundation, keep learning modern technologies, and contribute meaningfully to real-world projects.</p>
+
+      <div class="about-info-grid">
+        <div class="about-info-item"><i class="fa-solid fa-graduation-cap"></i><div><span>Education</span><p>BCA</p></div></div>
+        <div class="about-info-item"><i class="fa-solid fa-location-dot"></i><div><span>Location</span><p>India</p></div></div>
+        <div class="about-info-item"><i class="fa-solid fa-language"></i><div><span>Languages</span><p>English, Hindi, Marathi</p></div></div>
+        <div class="about-info-item"><i class="fa-solid fa-heart"></i><div><span>Interests</span><p>AI, Cloud, Open Source</p></div></div>
+      </div>
+
+      <div class="about-mini-timeline">
+        <div class="mini-tl-item"><span class="mini-tl-dot"></span><div><strong>Full Stack Development</strong><p>Building end-to-end web apps with the MERN stack.</p></div></div>
+        <div class="mini-tl-item"><span class="mini-tl-dot"></span><div><strong>Artificial Intelligence</strong><p>Exploring ML fundamentals and AI-driven tools.</p></div></div>
+        <div class="mini-tl-item"><span class="mini-tl-dot"></span><div><strong>Cloud Computing</strong><p>Learning deployment and cloud infrastructure basics.</p></div></div>
+      </div>
+      <a href="#personal" class="btn btn-outline small">More About Me <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- 3. PERSONAL DETAILS -->
+<section id="personal" class="section section-alt">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">Details</span>
+    <h2 class="section-title">Personal Details</h2>
+  </div>
+  <div class="personal-card" data-aos="zoom-in">
+    <div class="personal-grid">
+      <div class="personal-item"><i class="fa-solid fa-id-card"></i><div><span>Full Name</span><p>Jahur Jamadar</p></div></div>
+      <div class="personal-item"><i class="fa-solid fa-graduation-cap"></i><div><span>Education</span><p>Bachelor of Computer Applications</p></div></div>
+      <div class="personal-item"><i class="fa-solid fa-location-dot"></i><div><span>Location</span><p>India</p></div></div>
+      <div class="personal-item"><i class="fa-solid fa-envelope"></i><div><span>Email</span><p>jahurjamadar80@gmail.com</p></div></div>
+      <div class="personal-item"><i class="fa-solid fa-phone"></i><div><span>Phone</span><p>+91-8080231347</p></div></div>
+      <div class="personal-item"><i class="fa-solid fa-language"></i><div><span>Languages Known</span><p>English, Hindi, Marathi</p></div></div>
+      <div class="personal-item"><i class="fa-solid fa-flag"></i><div><span>Nationality</span><p>Indian</p></div></div>
+      <div class="personal-item"><i class="fa-solid fa-cake-candles"></i><div><span>Date of Birth</span><p>03-12-2006</p></div></div>
+      <div class="personal-item"><i class="fa-brands fa-linkedin"></i><div><span>LinkedIn</span><p><a href="https://www.linkedin.com/in/jahur-jamadar" target="_blank">linkedin.com/in/jahur-jamadar</a></p></div></div>
+      <div class="personal-item"><i class="fa-brands fa-github"></i><div><span>GitHub</span><p><a href="https://github.com/jahur-creator" target="_blank">github.com/jahur-creator</a></p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. EDUCATION -->
+<section id="education" class="section">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">Academics</span>
+    <h2 class="section-title">Education Timeline</h2>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-aos="fade-up">
+      <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+      <div class="timeline-content">
+        <span class="timeline-year">Completed</span>
+        <h3>SSC (Secondary School Certificate)</h3>
+        <p>Built the foundation in mathematics and science that first sparked an interest in computing.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+      <div class="timeline-dot"><i class="fa-solid fa-book"></i></div>
+      <div class="timeline-content">
+        <span class="timeline-year">Completed</span>
+        <h3>HSC (Higher Secondary Certificate)</h3>
+        <p>Focused on core Artificial Intelligence and computer subjects, deciding to pursue computer applications further.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+      <div class="timeline-dot active"><i class="fa-solid fa-user-graduate"></i></div>
+      <div class="timeline-content">
+        <span class="timeline-year">In Progress</span>
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p>Studying programming, data structures, databases, and web technologies while building real projects.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+      <div class="timeline-dot goal"><i class="fa-solid fa-rocket"></i></div>
+      <div class="timeline-content">
+        <span class="timeline-year">Goal</span>
+        <h3>Software Engineer</h3>
+        <p>Aiming to grow into a professional Full Stack / Software Engineer role at a reputed IT company.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. SKILLS -->
+<section id="skills" class="section section-alt">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">Skills</span>
+    <h2 class="section-title">Technical Skills</h2>
+  </div>
+
+  <div class="skills-bars" data-aos="fade-up">
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>C / C++</span><span class="skill-percent">75%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>Java</span><span class="skill-percent">70%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>Python</span><span class="skill-percent">80%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>JavaScript</span><span class="skill-percent">85%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>HTML / CSS</span><span class="skill-percent">90%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>PHP</span><span class="skill-percent">60%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>React.js</span><span class="skill-percent">78%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>Node.js / Express</span><span class="skill-percent">75%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>MongoDB / MySQL</span><span class="skill-percent">72%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>Git / GitHub</span><span class="skill-percent">80%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+    </div>
+    <div class="skill-bar-item">
+      <div class="skill-bar-label"><span>Artificial Intelligence</span><span class="skill-percent">65%</span></div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div>
+    </div>
+  </div>
+
+  <h3 class="skills-subtitle" data-aos="fade-up">Tools &amp; Platforms</h3>
+  <div class="skills-circles">
+    <div class="skill-circle" data-aos="zoom-in" data-percent="85">
+      <svg viewBox="0 0 120 120"><circle class="circle-bg" cx="60" cy="60" r="52"></circle><circle class="circle-fill" cx="60" cy="60" r="52"></circle></svg>
+      <div class="circle-label"><span class="circle-percent">0%</span><small>VS Code</small></div>
+    </div>
+    <div class="skill-circle" data-aos="zoom-in" data-aos-delay="100" data-percent="70">
+      <svg viewBox="0 0 120 120"><circle class="circle-bg" cx="60" cy="60" r="52"></circle><circle class="circle-fill" cx="60" cy="60" r="52"></circle></svg>
+      <div class="circle-label"><span class="circle-percent">0%</span><small>Canva</small></div>
+    </div>
+    <div class="skill-circle" data-aos="zoom-in" data-aos-delay="200" data-percent="90">
+      <svg viewBox="0 0 120 120"><circle class="circle-bg" cx="60" cy="60" r="52"></circle><circle class="circle-fill" cx="60" cy="60" r="52"></circle></svg>
+      <div class="circle-label"><span class="circle-percent">0%</span><small>MS Office</small></div>
+    </div>
+    <div class="skill-circle" data-aos="zoom-in" data-aos-delay="300" data-percent="78">
+      <svg viewBox="0 0 120 120"><circle class="circle-bg" cx="60" cy="60" r="52"></circle><circle class="circle-fill" cx="60" cy="60" r="52"></circle></svg>
+      <div class="circle-label"><span class="circle-percent">0%</span><small>Git</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. CERTIFICATIONS -->
+<section id="certifications" class="section">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">Learning</span>
+    <h2 class="section-title">Certifications</h2>
+  </div>
+  <div class="cert-grid">
+    <div class="cert-card" data-aos="flip-left"><i class="fa-solid fa-robot"></i><h4>AI Fundamentals</h4><p>IBM SkillsBuild</p></div>
+    <div class="cert-card" data-aos="flip-left" data-aos-delay="50"><i class="fa-brands fa-python"></i><h4>Python Programming</h4><p>Certification Course</p></div>
+    <div class="cert-card" data-aos="flip-left" data-aos-delay="100"><i class="fa-solid fa-layer-group"></i><h4>Full Stack Development</h4><p>Certification Course</p></div>
+    <div class="cert-card" data-aos="flip-left" data-aos-delay="150"><i class="fa-brands fa-java"></i><h4>Java Programming</h4><p>Certification Course</p></div>
+    <div class="cert-card" data-aos="flip-left" data-aos-delay="200"><i class="fa-solid fa-globe"></i><h4>Web Development</h4><p>Certification Course</p></div>
+    <div class="cert-card" data-aos="flip-left" data-aos-delay="250"><i class="fa-solid fa-cloud"></i><h4>Cloud Computing</h4><p>Certification Course</p></div>
+    <div class="cert-card" data-aos="flip-left" data-aos-delay="300"><i class="fa-solid fa-shield-halved"></i><h4>Cyber Security</h4><p>Certification Course</p></div>
+    <div class="cert-card" data-aos="flip-left" data-aos-delay="350"><i class="fa-brands fa-google"></i><h4>Google Cloud Certificate</h4><p>Google</p></div>
+    <div class="cert-card" data-aos="flip-left" data-aos-delay="400"><i class="fa-brands fa-google"></i><h4>Google Cloud Cybersecurity</h4><p>Google</p></div>
+  </div>
+</section>
+
+<!-- 7. ACHIEVEMENTS -->
+<section id="achievements" class="section section-alt">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">Milestones</span>
+    <h2 class="section-title">Achievements</h2>
+  </div>
+  <div class="counters-grid" data-aos="fade-up">
+    <div class="counter-item"><span class="counter-num" data-target="4">0</span><p><i class="fa-solid fa-laptop-code"></i> Hackathons</p></div>
+    <div class="counter-item"><span class="counter-num" data-target="6">0</span><p><i class="fa-solid fa-trophy"></i> Coding Competitions</p></div>
+    <div class="counter-item"><span class="counter-num" data-target="8">0</span><p><i class="fa-solid fa-chalkboard-user"></i> Workshops</p></div>
+    <div class="counter-item"><span class="counter-num" data-target="9">0</span><p><i class="fa-solid fa-certificate"></i> Certificates</p></div>
+    <div class="counter-item"><span class="counter-num" data-target="3">0</span><p><i class="fa-solid fa-medal"></i> Academic Awards</p></div>
+    <div class="counter-item"><span class="counter-num" data-target="6">0</span><p><i class="fa-brands fa-google"></i> Google Badges</p></div>
+  </div>
+  <div class="badges-row" data-aos="fade-up">
+    <span class="badge-pill"><i class="fa-solid fa-award"></i> Participation Badge</span>
+    <span class="badge-pill"><i class="fa-solid fa-award"></i> Team Player</span>
+    <span class="badge-pill"><i class="fa-solid fa-award"></i> Fast Learner</span>
+    <span class="badge-pill"><i class="fa-solid fa-award"></i> Problem Solver</span>
+  </div>
+</section>
+
+<!-- 8. PROJECTS -->
+<section id="projects" class="section">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">Work</span>
+    <h2 class="section-title">Featured Projects</h2>
+  </div>
+  <div class="projects-grid">
+
+    <div class="project-card" data-aos="fade-up">
+      <div class="project-img"><i class="fa-solid fa-users-gear"></i></div>
+      <div class="project-body">
+        <h3>Student Management System</h3>
+        <p>A web app to manage student records, attendance, and grades with role-based access.</p>
+        <div class="project-tech"><span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span></div>
+        <div class="project-links">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="fade-up">
+      <div class="project-img"><i class="fa-solid fa-id-badge"></i></div>
+      <div class="project-body">
+        <h3>Portfolio Website</h3>
+        <p>This very portfolio — a glassmorphism, animation-rich personal site built from scratch.</p>
+        <div class="project-tech"><span>HTML</span><span>Tailwind</span><span>GSAP</span></div>
+        <div class="project-links">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="80">
+      <div class="project-img"><i class="fa-solid fa-hospital"></i></div>
+      <div class="project-body">
+        <h3>Hospital Management System</h3>
+        <p>Patient records, appointment scheduling, and billing for a small clinic.</p>
+        <div class="project-tech"><span>Java</span><span>MySQL</span><span>Swing</span></div>
+        <div class="project-links">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="160">
+      <div class="project-img"><i class="fa-solid fa-clipboard-check"></i></div>
+      <div class="project-body">
+        <h3>Attendance Management</h3>
+        <p>QR-based attendance tracking system with an admin dashboard and reports.</p>
+        <div class="project-tech"><span>Python</span><span>Flask</span><span>SQLite</span></div>
+        <div class="project-links">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="fade-up">
+      <div class="project-img"><i class="fa-solid fa-comments"></i></div>
+      <div class="project-body">
+        <h3>AI Chatbot</h3>
+        <p>A conversational assistant built with NLP basics to answer FAQs on a website.</p>
+        <div class="project-tech"><span>Python</span><span>NLP</span><span>Flask</span></div>
+        <div class="project-links">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="80">
+      <div class="project-img"><i class="fa-solid fa-industry"></i></div>
+      <div class="project-body">
+        <h3>Sangli Metal Box Company Website</h3>
+        <p>A business website for a metal box manufacturing company, showcasing products, catalog, and contact details.</p>
+        <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="project-links">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="160">
+      <div class="project-img"><i class="fa-solid fa-utensils"></i></div>
+      <div class="project-body">
+        <h3>Restaurant Website</h3>
+        <p>A responsive restaurant site with menu display, table booking form, and gallery.</p>
+        <div class="project-tech"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+        <div class="project-links">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="fade-up">
+      <div class="project-img"><i class="fa-solid fa-cart-shopping"></i></div>
+      <div class="project-body">
+        <h3>E-commerce Website</h3>
+        <p>An online store with product listings, cart functionality, and a checkout flow.</p>
+        <div class="project-tech"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+        <div class="project-links">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="80">
+      <div class="project-img"><i class="fa-solid fa-basketball"></i></div>
+      <div class="project-body">
+        <h3>Sports Booking Application</h3>
+        <p>An app for booking sports courts and slots, with schedule management and confirmations.</p>
+        <div class="project-tech"><span>React</span><span>Express</span><span>MongoDB</span></div>
+        <div class="project-links">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- 9. EXPERIENCE -->
+<section id="experience" class="section section-alt">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">Journey</span>
+    <h2 class="section-title">Experience</h2>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-aos="fade-up">
+      <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+      <div class="timeline-content">
+        <span class="timeline-year">Internship</span>
+        <h3>Web Development Intern</h3>
+        <p>Assisted in building and testing front-end components for a live client project.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+      <div class="timeline-dot"><i class="fa-solid fa-chalkboard"></i></div>
+      <div class="timeline-content">
+        <span class="timeline-year">Training</span>
+        <h3>Full Stack Development Training</h3>
+        <p>Completed structured training covering the MERN stack and REST API design.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+      <div class="timeline-dot"><i class="fa-solid fa-person-chalkboard"></i></div>
+      <div class="timeline-content">
+        <span class="timeline-year">Freelance</span>
+        <h3>Freelance Website Builds</h3>
+        <p>Delivered small business websites end-to-end, from design to deployment.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+      <div class="timeline-dot"><i class="fa-solid fa-users"></i></div>
+      <div class="timeline-content">
+        <span class="timeline-year">College</span>
+        <h3>College Projects &amp; Technical Events</h3>
+        <p>Led and contributed to multiple academic projects and participated in tech fests.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. SERVICES -->
+<section id="services" class="section">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">What I Do</span>
+    <h2 class="section-title">Services</h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card" data-aos="fade-up"><i class="fa-solid fa-globe"></i><h3>Web Development</h3><p>End-to-end websites that are fast, responsive, and built to scale.</p></div>
+    <div class="service-card" data-aos="fade-up" data-aos-delay="80"><i class="fa-solid fa-display"></i><h3>Frontend Development</h3><p>Pixel-precise, interactive interfaces using modern JS frameworks.</p></div>
+    <div class="service-card" data-aos="fade-up" data-aos-delay="160"><i class="fa-solid fa-server"></i><h3>Backend Development</h3><p>Reliable APIs and server logic with Node.js, Express, and databases.</p></div>
+    <div class="service-card" data-aos="fade-up"><i class="fa-solid fa-palette"></i><h3>UI Design</h3><p>Clean, modern interface design focused on usability and clarity.</p></div>
+    <div class="service-card" data-aos="fade-up" data-aos-delay="80"><i class="fa-solid fa-layer-group"></i><h3>Full Stack Development</h3><p>Complete applications from database to deployment, built by one hand.</p></div>
+  </div>
+</section>
+
+<!-- 11. RESUME -->
+<section id="resume" class="section section-alt">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">Resume</span>
+    <h2 class="section-title">My Resume</h2>
+  </div>
+  <div class="resume-card" data-aos="zoom-in">
+    <i class="fa-solid fa-file-lines"></i>
+    <h3>Jahur Jamadar — Resume</h3>
+    <p>A complete overview of my education, skills, and projects in one page.</p>
+    <a href="assets/Jahur_Jamadar_Resume.pdf" class="btn btn-primary" download>
+      <i class="fa-solid fa-download"></i> Download Resume
+    </a>
+  </div>
+</section>
+
+<!-- 12. CONTACT -->
+<section id="contact" class="section">
+  <div class="section-header" data-aos="fade-up">
+    <span class="section-tag">Get In Touch</span>
+    <h2 class="section-title">Contact Me</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info" data-aos="fade-right">
+      <div class="contact-info-item"><i class="fa-solid fa-envelope"></i><div><span>Email</span><p>jahurjamadar80@gmail.com</p></div></div>
+      <div class="contact-info-item"><i class="fa-solid fa-phone"></i><div><span>Phone</span><p>+91-8080231347</p></div></div>
+      <div class="contact-info-item"><i class="fa-solid fa-location-dot"></i><div><span>Location</span><p>Vijaynagar, Sangli, India</p></div></div>
+      <div class="hero-socials contact-socials">
+        <a href="https://github.com/jahur-creator" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jahur-jamadar" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:jahurjamadar80@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <a href="https://maps.app.goo.gl/YNuaAbZJXfKXohtP8" target="_blank" class="map-placeholder">
+        <i class="fa-solid fa-map-location-dot"></i>
+        <p>View my location on Google Maps</p>
+      </a>
+    </div>
+    <form class="contact-form" id="contactForm" data-aos="fade-left">
+      <div class="form-row">
+        <div class="form-group"><input type="text" name="name" placeholder="Your Name" required></div>
+        <div class="form-group"><input type="email" name="email" placeholder="Your Email" required></div>
+      </div>
+      <div class="form-group"><input type="text" name="subject" placeholder="Subject" required></div>
+      <div class="form-group"><textarea name="message" rows="5" placeholder="Your Message" required></textarea></div>
+      <button type="submit" class="btn btn-primary full-width">
+        <i class="fa-solid fa-paper-plane"></i> Send Message
+      </button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <a href="#home" class="nav-logo"><span class="logo-bracket">&lt;</span>JJ<span class="logo-bracket">/&gt;</span></a>
+      <p>Aspiring Full Stack Developer building my way into the IT industry, one project at a time.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-social">
+      <h4>Follow Me</h4>
+      <div class="hero-socials">
+        <a href="https://github.com/jahur-creator" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jahur-jamadar" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:jahurjamadar80@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Jahur Jamadar. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
